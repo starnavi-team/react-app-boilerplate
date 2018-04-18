@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import style from "reset-css/reset.css";
 import reducer from './reducers';
-import ExamplePage from "./pages/ExamplePage"
+import ExamplePage from './pages/ExamplePage';
 
 const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ &&
   window.__REDUX_DEVTOOLS_EXTENSION__());

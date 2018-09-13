@@ -1,0 +1,9 @@
+{
+    "extends": "starnavi-react",
+    "parserOptions": {
+      "ecmaVersion": 9
+    },
+    "env": {
+      "browser": true
+    }
+}

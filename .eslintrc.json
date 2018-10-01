@@ -1,9 +1,43 @@
 {
     "extends": "starnavi-react",
     "parserOptions": {
-      "ecmaVersion": 9
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "experimentalObjectRestSpread": true
+      }
     },
     "env": {
-      "browser": true
+      "browser": true,
+      "es6": true
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "comma-dangle": [
+        "error",
+        {
+          "arrays": "never",
+          "objects": "never",
+          "imports": "never",
+          "exports": "never",
+          "functions": "never"
+        }
+      ],
+      "func-names": [
+        "error",
+        "never"
+      ]
     }
 }

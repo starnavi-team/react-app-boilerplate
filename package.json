@@ -20,7 +20,8 @@
     }
   },
   "author": "starnavi team",
-  "license": "ISC",
+  "license": "UNLICENSED",
+  "private": true,
   "bugs": {
     "url": "https://github.com/starnavi-team/react-app-boilerplate/issues"
   },

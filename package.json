@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --hot --open",
     "build": "webpack --mode production",
-    "test": "./node_modules/.bin/jest",
+    "test": "./node_modules/.bin/jest --passWithNoTests",
     "lint": "./node_modules/.bin/eslint 'src/**/*.@(js|jsx)'"
   },
   "repository": {
